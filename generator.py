@@ -62,13 +62,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-"""
-"test_config":{
-  		"test_name": "test_xyz",
-  		"base_url": "https://example.com",
-  		"global_step_wait": "0",
-  		"steps": "List of steps"
-  }
-
-  {{cookiecutter.test_config.test_name|lower|replace(' ', '_') }}
-"""
