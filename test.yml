@@ -46,7 +46,7 @@ test:
       value: "Your search - dbmndbndbndjkbdkbdgbdgbdgbgdkbkgk - did not match any documents"
       locators:
         - type: xpath
-          value: //div[id='topstuff']/div/div/p
+          value: //div[@id='topstuff']/div/div/p
 
       config:
         step_wait: 5
