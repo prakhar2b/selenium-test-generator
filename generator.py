@@ -42,7 +42,7 @@ def get_feature(file_name):
 
 def create_cookiecutter_template(config):
 	# You can specify an extra_context dictionary that will override values from cookiecutter.json
-	cookiecutter('https://github.com/prakhar2b/selenium-test-generator.git',
+	cookiecutter('https://github.com/prakhar2b/selenium-test-template.git',
 		no_input=True,
         extra_context=config)
 
